@@ -1,0 +1,96 @@
+2026/07/08-21:53:54.496 2547 Reusing MANIFEST /home/abi/GIT/MonibA/whatsnode/.wwebjs_auth/session-moniba/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/08-21:53:54.498 2547 Recovering log #1521
+2026/07/08-21:53:54.536 2547 Reusing old log /home/abi/GIT/MonibA/whatsnode/.wwebjs_auth/session-moniba/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/001521.log 
+2026/07/08-22:05:24.906 254a Level-0 table #1546: started
+2026/07/08-22:05:24.945 254a Level-0 table #1546: 1657505 bytes OK
+2026/07/08-22:05:24.950 254a Delete type=0 #1521
+2026/07/08-22:05:24.951 254a Compacting 1@0 + 0@1 files
+2026/07/08-22:05:24.974 254a Generated table #1547@0: 20834 keys, 436600 bytes
+2026/07/08-22:05:24.979 254a Generated table #1548@0: 439 keys, 181185 bytes
+2026/07/08-22:05:24.988 254a Generated table #1549@0: 7792 keys, 170410 bytes
+2026/07/08-22:05:24.988 254a Compacted 1@0 + 0@1 files => 788195 bytes
+2026/07/08-22:05:24.991 254a compacted to: files[ 0 3 31 0 0 0 0 ]
+2026/07/08-22:05:24.991 254a Delete type=2 #1546
+2026/07/08-22:05:24.992 254a Compacting 1@1 + 9@2 files
+2026/07/08-22:05:25.104 254a Generated table #1550@1: 98895 keys, 2250284 bytes
+2026/07/08-22:05:25.212 254a Generated table #1551@1: 97556 keys, 2249398 bytes
+2026/07/08-22:05:25.330 254a Generated table #1552@1: 97017 keys, 2247282 bytes
+2026/07/08-22:05:25.459 254a Generated table #1553@1: 98285 keys, 2247575 bytes
+2026/07/08-22:05:25.579 254a Generated table #1554@1: 98310 keys, 2248027 bytes
+2026/07/08-22:05:25.679 254a Generated table #1555@1: 97173 keys, 2248336 bytes
+2026/07/08-22:05:25.764 254a Generated table #1556@1: 70423 keys, 1930300 bytes
+2026/07/08-22:05:25.764 254a Compacted 1@1 + 9@2 files => 15421202 bytes
+2026/07/08-22:05:25.767 254a compacted to: files[ 0 2 29 0 0 0 0 ]
+2026/07/08-22:05:25.768 254a Delete type=2 #1483
+2026/07/08-22:05:25.768 254a Delete type=2 #1519
+2026/07/08-22:05:25.768 254a Delete type=2 #1537
+2026/07/08-22:05:25.768 254a Delete type=2 #1538
+2026/07/08-22:05:25.768 254a Delete type=2 #1539
+2026/07/08-22:05:25.768 254a Delete type=2 #1540
+2026/07/08-22:05:25.768 254a Delete type=2 #1541
+2026/07/08-22:05:25.768 254a Delete type=2 #1542
+2026/07/08-22:05:25.768 254a Delete type=2 #1543
+2026/07/08-22:05:25.768 254a Delete type=2 #1549
+2026/07/08-22:05:26.309 254a Level-0 table #1558: started
+2026/07/08-22:05:26.365 254a Level-0 table #1558: 1444701 bytes OK
+2026/07/08-22:05:26.371 254a Delete type=0 #1545
+2026/07/08-22:05:39.846 254a Compacting 1@0 + 2@1 files
+2026/07/08-22:05:39.910 254a Generated table #1559@0: 46453 keys, 567302 bytes
+2026/07/08-22:05:39.918 254a Generated table #1560@0: 517 keys, 404272 bytes
+2026/07/08-22:05:39.946 254a Generated table #1561@0: 25479 keys, 522458 bytes
+2026/07/08-22:05:39.946 254a Compacted 1@0 + 2@1 files => 1494032 bytes
+2026/07/08-22:05:39.948 254a compacted to: files[ 0 3 29 0 0 0 0 ]
+2026/07/08-22:05:39.949 254a Delete type=2 #1547
+2026/07/08-22:05:39.949 254a Delete type=2 #1548
+2026/07/08-22:05:39.949 254a Delete type=2 #1558
+2026/07/08-22:10:47.861 2547 Compacting 1@1 + 10@2 files
+2026/07/08-22:10:47.982 2547 Generated table #1562@1: 77212 keys, 2335015 bytes
+2026/07/08-22:10:48.078 2547 Generated table #1563@1: 44026 keys, 2204492 bytes
+2026/07/08-22:10:48.108 2547 Generated table #1564@1: 1810 keys, 2154325 bytes
+2026/07/08-22:10:48.150 2547 Generated table #1565@1: 1880 keys, 2156661 bytes
+2026/07/08-22:10:48.186 2547 Generated table #1566@1: 1843 keys, 2151077 bytes
+2026/07/08-22:10:48.235 2547 Generated table #1567@1: 1551 keys, 2156939 bytes
+2026/07/08-22:10:48.285 2547 Generated table #1568@1: 1550 keys, 2160084 bytes
+2026/07/08-22:10:48.326 2547 Generated table #1569@1: 1636 keys, 2154989 bytes
+2026/07/08-22:10:48.363 2547 Generated table #1570@1: 1767 keys, 2149793 bytes
+2026/07/08-22:10:48.408 2547 Generated table #1571@1: 1957 keys, 2154023 bytes
+2026/07/08-22:10:48.412 2547 Generated table #1572@1: 78 keys, 67842 bytes
+2026/07/08-22:10:48.412 2547 Compacted 1@1 + 10@2 files => 21845240 bytes
+2026/07/08-22:10:48.415 2547 compacted to: files[ 0 2 30 0 0 0 0 ]
+2026/07/08-22:10:48.416 2547 Delete type=2 #1486
+2026/07/08-22:10:48.416 2547 Delete type=2 #1487
+2026/07/08-22:10:48.416 2547 Delete type=2 #1488
+2026/07/08-22:10:48.416 2547 Delete type=2 #1489
+2026/07/08-22:10:48.417 2547 Delete type=2 #1490
+2026/07/08-22:10:48.417 2547 Delete type=2 #1491
+2026/07/08-22:10:48.417 2547 Delete type=2 #1492
+2026/07/08-22:10:48.417 2547 Delete type=2 #1493
+2026/07/08-22:10:48.417 2547 Delete type=2 #1535
+2026/07/08-22:10:48.417 2547 Delete type=2 #1536
+2026/07/08-22:10:48.417 2547 Delete type=2 #1559
+2026/07/08-22:10:53.378 254a Compacting 1@1 + 11@2 files
+2026/07/08-22:10:53.440 254a Generated table #1573@1: 958 keys, 2132056 bytes
+2026/07/08-22:10:53.475 254a Generated table #1574@1: 2049 keys, 2143651 bytes
+2026/07/08-22:10:53.565 254a Generated table #1575@1: 28222 keys, 2244283 bytes
+2026/07/08-22:10:53.646 254a Generated table #1576@1: 23952 keys, 2274322 bytes
+2026/07/08-22:10:53.728 254a Generated table #1577@1: 24929 keys, 2268643 bytes
+2026/07/08-22:10:53.829 254a Generated table #1578@1: 22250 keys, 2267410 bytes
+2026/07/08-22:10:53.884 254a Generated table #1579@1: 9464 keys, 2163553 bytes
+2026/07/08-22:10:53.937 254a Generated table #1580@1: 13313 keys, 2166038 bytes
+2026/07/08-22:10:53.973 254a Generated table #1581@1: 4574 keys, 2122669 bytes
+2026/07/08-22:10:54.000 254a Generated table #1582@1: 610 keys, 2116344 bytes
+2026/07/08-22:10:54.019 254a Generated table #1583@1: 19598 keys, 386987 bytes
+2026/07/08-22:10:54.019 254a Compacted 1@1 + 11@2 files => 22285956 bytes
+2026/07/08-22:10:54.022 254a compacted to: files[ 0 1 30 0 0 0 0 ]
+2026/07/08-22:10:54.023 254a Delete type=2 #1517
+2026/07/08-22:10:54.023 254a Delete type=2 #1518
+2026/07/08-22:10:54.023 254a Delete type=2 #1526
+2026/07/08-22:10:54.023 254a Delete type=2 #1527
+2026/07/08-22:10:54.023 254a Delete type=2 #1528
+2026/07/08-22:10:54.023 254a Delete type=2 #1529
+2026/07/08-22:10:54.023 254a Delete type=2 #1530
+2026/07/08-22:10:54.023 254a Delete type=2 #1531
+2026/07/08-22:10:54.023 254a Delete type=2 #1532
+2026/07/08-22:10:54.023 254a Delete type=2 #1533
+2026/07/08-22:10:54.023 254a Delete type=2 #1534
+2026/07/08-22:10:54.024 254a Delete type=2 #1560

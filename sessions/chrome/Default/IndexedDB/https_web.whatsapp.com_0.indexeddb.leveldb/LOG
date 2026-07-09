@@ -1,0 +1,28 @@
+2026/07/07-00:24:22.678 6cd81 Reusing MANIFEST /home/abi/GIT/MonibA/sessions/chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/07-00:24:22.680 6cd81 Recovering log #376
+2026/07/07-00:24:22.709 6cd81 Reusing old log /home/abi/GIT/MonibA/sessions/chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000376.log 
+2026/07/07-00:24:24.413 6cd81 Compacting 1@1 + 1@2 files
+2026/07/07-00:24:24.571 6cd81 Generated table #383@1: 49882 keys, 2079784 bytes
+2026/07/07-00:24:24.571 6cd81 Compacted 1@1 + 1@2 files => 2079784 bytes
+2026/07/07-00:24:24.575 6cd81 compacted to: files[ 0 0 19 0 0 0 0 ]
+2026/07/07-00:24:24.576 6cd81 Delete type=2 #373
+2026/07/07-00:24:24.576 6cd81 Delete type=2 #378
+2026/07/07-00:24:47.440 6cd83 Level-0 table #385: started
+2026/07/07-00:24:47.477 6cd83 Level-0 table #385: 1167633 bytes OK
+2026/07/07-00:24:47.481 6cd83 Delete type=0 #376
+2026/07/07-00:24:47.490 6cd82 Compacting 1@0 + 0@1 files
+2026/07/07-00:24:47.524 6cd82 Generated table #386@0: 21818 keys, 248207 bytes
+2026/07/07-00:24:47.544 6cd82 Generated table #387@0: 15564 keys, 443279 bytes
+2026/07/07-00:24:47.545 6cd82 Compacted 1@0 + 0@1 files => 691486 bytes
+2026/07/07-00:24:47.547 6cd82 compacted to: files[ 0 2 19 0 0 0 0 ]
+2026/07/07-00:24:48.549 6cd83 Compacting 1@1 + 3@2 files
+2026/07/07-00:24:48.678 6cd83 Generated table #388@1: 22383 keys, 2247155 bytes
+2026/07/07-00:24:48.791 6cd83 Generated table #389@1: 48637 keys, 2188966 bytes
+2026/07/07-00:24:48.949 6cd83 Generated table #390@1: 104901 keys, 2212555 bytes
+2026/07/07-00:24:48.949 6cd83 Compacted 1@1 + 3@2 files => 6648676 bytes
+2026/07/07-00:24:48.952 6cd83 compacted to: files[ 0 1 19 0 0 0 0 ]
+2026/07/07-00:24:48.953 6cd83 Delete type=2 #370
+2026/07/07-00:24:48.953 6cd83 Delete type=2 #380
+2026/07/07-00:24:48.954 6cd83 Delete type=2 #381
+2026/07/07-00:24:48.954 6cd83 Delete type=2 #385
+2026/07/07-00:24:48.954 6cd83 Delete type=2 #387
