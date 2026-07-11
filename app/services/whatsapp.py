@@ -17,6 +17,7 @@ class WhatsAppAPI:
                 },
                 timeout=20
             )
+            print("dd")
 
             return res.json()
 

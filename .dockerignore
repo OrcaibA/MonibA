@@ -6,3 +6,4 @@ OrcaibA
 node_modules
 whatsnode/node_modules
 .env
+credentials.json
