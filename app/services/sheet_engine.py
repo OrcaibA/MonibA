@@ -56,8 +56,11 @@ import json
 from pathlib import Path
 
 from app.services.google_sheet import GoogleSheetService
+from app.services.excel_service import ExcelService
+from app.core.config import settings
+from app.services.state import StateManager
 
-STATE_FILE = "state.json"
+STATE_FILE = settings.STATE_FILE
 
 
 TRACKED_FIELDS = [
@@ -72,26 +75,29 @@ TRACKED_FIELDS = [
 class SheetEngine:
 
     def __init__(self):
-        self.sheet = GoogleSheetService()
+        # self.sheet = GoogleSheetService()
+        self.sheet = ExcelService()
 
-    def load_state(self):
+    # def load_state(self):
 
-        if not Path(STATE_FILE).exists():
-            return {}
+    #     if not Path(STATE_FILE).exists():
+    #         return {}
 
-        with open(STATE_FILE, "r") as f:
-            return json.load(f)
+    #     with open(STATE_FILE, "r") as f:
+    #         return json.load(f)
 
-    def save_state(self, state):
+    # def save_state(self, state):
 
-        with open(STATE_FILE, "w") as f:
-            json.dump(state, f, indent=2)
+    #     with open(STATE_FILE, "w") as f:
+    #         json.dump(state, f, indent=2)
 
     def scan(self):
 
         rows = self.sheet.read()
+        # print(type(rows))
+        # print(rows)
 
-        old_state = self.load_state()
+        old_state = StateManager.load()
 
         new_state = {}
 
@@ -99,12 +105,17 @@ class SheetEngine:
 
         for row in rows:
 
+            
+        # for i, row in enumerate(rows):
+        #     print(f"Row {i} type:", type(row))
+        #     print("Row value:", row)
+
             db = row["DB NUMBER"]
 
             current = {}
 
             for field in TRACKED_FIELDS:
-                current[field] = row.get(field, "").strip()
+                current[field] = str(row.get(field) or "").strip()
 
             new_state[db] = current
 
@@ -180,6 +191,6 @@ class SheetEngine:
                     "data": row
                 })
 
-        self.save_state(new_state)
+        StateManager.save(new_state)
 
         return events

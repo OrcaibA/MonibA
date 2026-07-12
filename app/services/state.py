@@ -1,8 +1,11 @@
 import json
 from pathlib import Path
+from app.core.config import settings
 
-STATE_FILE = Path("storage/state.json")
 
+STATE_FILE = Path(settings.STATE_FILE)
+
+STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 class StateManager:
 
@@ -13,14 +16,8 @@ class StateManager:
 
         try:
             with open(STATE_FILE, "r") as f:
-                content = f.read().strip()
-
-                if not content:
-                    return {}
-
-                return json.loads(content)
-
-        except (json.JSONDecodeError, FileNotFoundError):
+                return json.load(f)
+        except:
             return {}
 
     @staticmethod
