@@ -75,8 +75,8 @@ TRACKED_FIELDS = [
 class SheetEngine:
 
     def __init__(self):
-        # self.sheet = GoogleSheetService()
-        self.sheet = ExcelService()
+        self.sheet = GoogleSheetService()
+        # self.sheet = ExcelService()
 
     # def load_state(self):
 

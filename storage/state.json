@@ -44,7 +44,7 @@
     "DB202607082405831": {
         "LOGIN STATUS": "COMPLETED",
         "LEGAL STATUS": "PENDING",
-        "VALUATION STATUS": "PENDING",
+        "VALUATION STATUS": "",
         "CASE STATUS": "IN-PROGESS",
         "DISBUREMENT STATUS": ""
     },
@@ -62,7 +62,14 @@
         "CASE STATUS": "IN-PROGESS",
         "DISBUREMENT STATUS": ""
     },
-    "": {
+    "DB202607112415562": {
+        "LOGIN STATUS": "COMPLETED",
+        "LEGAL STATUS": "",
+        "VALUATION STATUS": "",
+        "CASE STATUS": "",
+        "DISBUREMENT STATUS": ""
+    },
+    "DB202607132416162": {
         "LOGIN STATUS": "",
         "LEGAL STATUS": "",
         "VALUATION STATUS": "",

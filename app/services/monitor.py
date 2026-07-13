@@ -111,9 +111,9 @@ class SheetMonitor:
 
                 print("🔄 Syncing OneDrive...")
 
-                self.sync.sync()
+                # self.sync.sync()
 
-                print("✅ Excel Updated")
+                # print("✅ Excel Updated")
 
                 events = self.engine.scan()
 
